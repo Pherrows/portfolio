@@ -20,7 +20,7 @@ const MainImg = styled.div`
   background-image: url(${KakaoTalkImageUrl});
   background-size: cover;
   border-radius: 50%;
-  margin-left: 200px;
+  margin-left: 300px;
   margin-top: 150px;
 `;
 
@@ -68,9 +68,9 @@ const StyledA1 = styled.a`
   align-items: center;
   border: 1px solid black;
   cursor: pointer;
-  /* &:hover {
-    background-color #eeeeee;
-  } */
+  &:hover {
+    background-color: #eeeeee;
+  }
 `;
 
 const StyledA2 = styled.a`
@@ -84,9 +84,9 @@ const StyledA2 = styled.a`
   align-items: center;
   border: 1px solid black;
   cursor: pointer;
-  /* &:hover {
-    background-color #eeeeee;
-  } */
+  &:hover {
+    background-color: #eeeeee;
+  }
 `;
 
 const StyledA3 = styled.a`
@@ -100,10 +100,9 @@ const StyledA3 = styled.a`
   align-items: center;
   border: 1px solid black;
   cursor: pointer;
-
-  /* &:hover {
-    background-color #eeeeee;
-  } */
+  &:hover {
+    background-color: #eeeeee;
+  }
 `;
 
 function Main(props) {

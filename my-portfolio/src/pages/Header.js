@@ -21,7 +21,7 @@ const Title = styled.div`
 const Icon = styled.div`
   width: 20px;
   height: 20px;
-  background-color: navy;
+  background-color: orange;
   border-radius: 50px;
   margin-right: 10px;
   margin-left: 10px;
