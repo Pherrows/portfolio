@@ -37,8 +37,8 @@ function Footer(props) {
           <StyledP>yhk1492@naver.com</StyledP>
         </FooterDivitem>
         <FooterDivitem>
-          <span>Email</span>
-          <StyledP>yhk1492@naver.com</StyledP>
+          <StyledSpan>SNS</StyledSpan>
+          <StyledP>Double__dip</StyledP>
         </FooterDivitem>
       </FooterDiv>
     </>
