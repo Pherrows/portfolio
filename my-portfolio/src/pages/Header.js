@@ -37,6 +37,11 @@ const Menu = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-right: 20px;
+`;
+
+const MenuItem = styled.p`
+  padding: 0 10px 0;
 `;
 
 function Header(props) {
@@ -48,8 +53,9 @@ function Header(props) {
       </Title>
       <MenuDiv>
         <Menu>
-          <p>About Me</p>
-          <p>Projects</p>
+          <MenuItem>About Me</MenuItem>
+          <MenuItem>|</MenuItem>
+          <MenuItem>Projects</MenuItem>
         </Menu>
       </MenuDiv>
     </HeaderDivBox>
