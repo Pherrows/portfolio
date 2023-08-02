@@ -2,7 +2,7 @@ import React from "react";
 import { Outlet, useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
-const KakaoTalkImageUrl = "/KakaoTalk_20230801_173843039.jpg";
+const KakaoTalkImageUrl = "/KakaoTalk_20230802_201313567.jpg";
 
 const MainDiv = styled.div`
   /* background-color: orange; */

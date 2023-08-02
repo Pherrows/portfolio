@@ -84,18 +84,18 @@ function Projects(props) {
 
       <MainDiv>
         <BorderDiv>
-          <TitleDiv3>
+          <TitleDiv1>
             <TitleH2>Projects 02</TitleH2>
-          </TitleDiv3>
+          </TitleDiv1>
 
           <TitleDiv4></TitleDiv4>
         </BorderDiv>
       </MainDiv>
       <MainDiv>
         <BorderDiv>
-          <TitleDiv3>
+          <TitleDiv1>
             <TitleH2>Projects 03</TitleH2>
-          </TitleDiv3>
+          </TitleDiv1>
 
           <TitleDiv4></TitleDiv4>
         </BorderDiv>
