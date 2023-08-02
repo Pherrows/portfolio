@@ -1,12 +1,15 @@
 import React from "react";
 import styled from "styled-components";
+import { BsPhone } from "react-icons/bs";
+import { AiOutlineMail } from "react-icons/ai";
+import { FiInstagram } from "react-icons/fi";
 
 const FooterDiv = styled.div`
-  height: 100px;
+  height: 90px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-top: 1px solid orange;
+  border-top: 1px solid #ffcc66;
   /* flex-direction: column; */
 `;
 
@@ -19,8 +22,8 @@ const StyledSpan = styled.span`
 `;
 
 const StyledP = styled.p`
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 17px;
+  font-weight: 500;
   padding-top: 10px;
 `;
 
@@ -29,15 +32,24 @@ function Footer(props) {
     <>
       <FooterDiv>
         <FooterDivitem>
-          <StyledSpan>Phone</StyledSpan>
+          <StyledSpan>
+            <BsPhone style={{ paddingRight: "15px" }} />
+            Phone
+          </StyledSpan>
           <StyledP>010-9511-1364</StyledP>
         </FooterDivitem>
         <FooterDivitem>
-          <StyledSpan>Email</StyledSpan>
+          <StyledSpan>
+            <AiOutlineMail style={{ paddingRight: "15px" }} />
+            Email
+          </StyledSpan>
           <StyledP>yhk1492@naver.com</StyledP>
         </FooterDivitem>
         <FooterDivitem>
-          <StyledSpan>SNS</StyledSpan>
+          <StyledSpan>
+            <FiInstagram style={{ paddingRight: "15px" }} />
+            Instagram
+          </StyledSpan>
           <StyledP>Double__dip</StyledP>
         </FooterDivitem>
       </FooterDiv>

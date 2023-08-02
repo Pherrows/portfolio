@@ -1,4 +1,5 @@
 import React from "react";
+import { Outlet, useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
 const KakaoTalkImageUrl = "/KakaoTalk_20230801_173843039.jpg";
@@ -41,13 +42,14 @@ const StyledSpan = styled.span`
 
 const StyledP1 = styled.p`
   margin-left: 30px;
-  font-size: 20px;
+  font-size: 27px;
   font-weight: 500;
   margin-bottom: 30px;
 `;
 
 const StyledP2 = styled.p`
   margin-left: 30px;
+  font-size: 18px;
 `;
 
 const ButtonDiv = styled.div`
@@ -59,7 +61,7 @@ const ButtonDiv = styled.div`
 
 const StyledA1 = styled.a`
   border-radius: 50%;
-  background-color: orange;
+  background-color: #ffcc66;
   width: 140px;
   height: 140px;
   margin-right: 30px;
@@ -75,7 +77,7 @@ const StyledA1 = styled.a`
 
 const StyledA2 = styled.a`
   border-radius: 50%;
-  background-color: orange;
+  background-color: #ff3333;
   width: 140px;
   height: 140px;
   margin-right: 30px;
@@ -91,7 +93,7 @@ const StyledA2 = styled.a`
 
 const StyledA3 = styled.a`
   border-radius: 50%;
-  background-color: orange;
+  background-color: #66cccc;
   width: 140px;
   height: 140px;
   margin-right: 30px;
@@ -106,23 +108,39 @@ const StyledA3 = styled.a`
 `;
 
 function Main(props) {
+  const navigate = useNavigate();
   return (
     <>
       <MainDiv>
         <MainImg />
         <StyledText>
           <StyledSpan>Hello!</StyledSpan>
-          <StyledP1>dddddddddddd</StyledP1>
-          <StyledP2>dddddddddddd</StyledP2>
+          <StyledP1>Hello, I'm Lee Sanghyeok.</StyledP1>
+          <StyledP2>
+            I made a brief self-introduction and portfolio I look forward to
+            your kind cooperation.
+          </StyledP2>
           <ButtonDiv>
-            <StyledA1>
-              <p>Reseme</p>
+            <StyledA1
+              onClick={() => {
+                navigate("/reseme");
+              }}
+            >
+              <p style={{ fontSize: "25px", fontWeight: 800 }}>Reseme</p>
             </StyledA1>
-            <StyledA2>
-              <p>Projects</p>
+            <StyledA2
+              onClick={() => {
+                navigate("/projects");
+              }}
+            >
+              <p style={{ fontSize: "25px", fontWeight: 800 }}>Projects</p>
             </StyledA2>
-            <StyledA3>
-              <p>Reseme</p>
+            <StyledA3
+              onClick={() => {
+                navigate("/aboutMe");
+              }}
+            >
+              <p style={{ fontSize: "25px", fontWeight: 800 }}>About Me</p>
             </StyledA3>
           </ButtonDiv>
         </StyledText>
