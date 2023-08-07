@@ -98,6 +98,7 @@ function Projects(props) {
       title: "Projects 03",
       content: "사용기술: React,Redux,JavaScript",
       content1: "calendar 기능과 일정추가, 수정, 삭제 기능을 구현 하였습니다. ",
+      Link: "https://920109-1.netlify.app",
       image: "/calendar.png",
     },
   ];
