@@ -66,7 +66,9 @@ function Header(props) {
             <MenuItem>|</MenuItem>
             <MenuItem onClick={() => navigate("/projects")}>Projects</MenuItem>
             <MenuItem>|</MenuItem>
-            <MenuItem onClick={() => navigate("/aboutMe")}>About Me</MenuItem>
+            <MenuItem onClick={() => navigate("/aboutMe")}>
+              self-introduction
+            </MenuItem>
           </Menu>
         </MenuDiv>
       </HeaderDivBox>

@@ -70,8 +70,10 @@ const StyledA1 = styled.a`
   align-items: center;
   border: 1px solid black;
   cursor: pointer;
+  transition: all 0.3s ease;
+
   &:hover {
-    background-color: #eeeeee;
+    background: #eeeeee;
   }
 `;
 
@@ -86,8 +88,10 @@ const StyledA2 = styled.a`
   align-items: center;
   border: 1px solid black;
   cursor: pointer;
+  transition: all 0.3s ease;
+
   &:hover {
-    background-color: #eeeeee;
+    background: #eeeeee;
   }
 `;
 
@@ -102,8 +106,10 @@ const StyledA3 = styled.a`
   align-items: center;
   border: 1px solid black;
   cursor: pointer;
+  transition: all 0.3s ease;
+
   &:hover {
-    background-color: #eeeeee;
+    background: #eeeeee;
   }
 `;
 
@@ -140,7 +146,9 @@ function Main(props) {
                 navigate("/aboutMe");
               }}
             >
-              <p style={{ fontSize: "25px", fontWeight: 800 }}>About Me</p>
+              <p style={{ fontSize: "17px", fontWeight: 800 }}>
+                self-introduction
+              </p>
             </StyledA3>
           </ButtonDiv>
         </StyledText>

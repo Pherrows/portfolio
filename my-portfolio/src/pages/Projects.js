@@ -74,8 +74,8 @@ const BorderDiv = styled.div`
 const Image = styled.img`
   width: 500px;
   height: 300px;
-  border-radius: 10 px;
-  padding-top: 50px;
+  border-radius: 10px;
+  margin-top: 10px;
 `;
 
 function Projects(props) {
