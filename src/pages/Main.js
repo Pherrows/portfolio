@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
 const KakaoTalkImageUrl = "/KakaoTalk_20230802_201313567.jpg";

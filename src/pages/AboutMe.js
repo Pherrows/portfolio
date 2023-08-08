@@ -44,25 +44,25 @@ const TitleDiv2 = styled.div`
   width: 850px;
 `;
 
-const TitleDiv3 = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 50px;
-  margin-top: 100px;
-  flex-direction: column;
-  width: 400px;
-`;
+// const TitleDiv3 = styled.div`
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   margin-left: 50px;
+//   margin-top: 100px;
+//   flex-direction: column;
+//   width: 400px;
+// `;
 
-const TitleDiv4 = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 370px;
-  margin-top: 100px;
-  flex-direction: column;
-  width: 400px;
-`;
+// const TitleDiv4 = styled.div`
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   margin-left: 370px;
+//   margin-top: 100px;
+//   flex-direction: column;
+//   width: 400px;
+// `;
 
 const BorderDiv = styled.div`
   /* border-bottom: 0.8px solid #ffcc66; */

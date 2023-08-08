@@ -35,24 +35,24 @@ const TitleDiv1 = styled.div`
   width: 350px;
 `;
 
-const TitleDiv2 = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 280px;
-  margin-top: 100px;
-  flex-direction: column;
-  width: 400px;
-`;
+// const TitleDiv2 = styled.div`
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   margin-left: 280px;
+//   margin-top: 100px;
+//   flex-direction: column;
+//   width: 400px;
+// `;
 
-const TitleDiv3 = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 300px;
-  margin-top: 100px;
-  flex-direction: column;
-`;
+// const TitleDiv3 = styled.div`
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   margin-left: 300px;
+//   margin-top: 100px;
+//   flex-direction: column;
+// `;
 
 const TitleDiv4 = styled.div`
   display: flex;
